@@ -1,15 +1,15 @@
 # Downgrade
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/archlinux-downgrade/downgrade?label=release&logo=github&color=brightgreen)](https://github.com/archlinux-downgrade/downgrade/releases)
-[![AUR version](https://img.shields.io/aur/version/downgrade?logo=Arch%20Linux&color=brightgreen)](https://aur.archlinux.org/packages/downgrade/)
-[![CI](https://github.com/archlinux-downgrade/downgrade/actions/workflows/ci.yml/badge.svg)](https://github.com/archlinux-downgrade/downgrade/actions/workflows/ci.yml)
-[![gitlocalized ](https://gitlocalize.com/repo/4232/whole_project/badge.svg)](https://gitlocalize.com/repo/4232/whole_project?utm_source=badge)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/archlinux-downgrade/downgrade?
 
 Eases downgrading packages in Arch Linux.
 
 ## Installation
 
-Install via the [AUR](https://aur.archlinux.org/packages/downgrade/).
+Install via the RebornOS repo.
+```
+sudo pacman -S RebornOS/downgrade
+```
 
 ## Usage
 
@@ -32,7 +32,7 @@ Options:
   --maxdepth      <integer>
                   maximum depth to search for cached packages, defaults to 1
   --ala-url       <url>
-                  location of ALA server, defaults to "https://archive.archlinux.org"
+                  location of ALA server, defaults to "https://alaa.ad24.cz"
   --ala-only      only use ALA server
   --cached-only   only use cached packages
   --version       show downgrade version

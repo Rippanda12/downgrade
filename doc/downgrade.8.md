@@ -77,7 +77,7 @@ on the ALA.
 
 **\--ala-url** _\<url\>_\
 
-> Location of an ALA server, default is *https://archive.archlinux.org*.
+> Location of an ALA server, default is *https://alaa.ad24.cz*.
 
 **\--ala-only**\
 
